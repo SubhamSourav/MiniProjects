@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+}
+
+.box div {
+  font-size: 24px;
+}
+
+.box .pvr {
+  color: yellow;
+  font-size: 48px;
+  line-height: 0.7;
+}
+
+.cine {
+  text-align: center;
+}
+
+.first {
+  color: aqua;
+}
+
+.second {
+  color: red;
+}
+
+.star {
+  font-size: 3rem;
+  color: gold;
+  background-color: unset;
+  border: none;
+}
+
+.star:hover {
+  cursor: pointer;
+}
+
+.content {
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  height: 50px;
+  color: black;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
